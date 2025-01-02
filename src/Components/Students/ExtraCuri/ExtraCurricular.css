@@ -1,0 +1,20 @@
+.extra-img
+{
+    height: 400px;
+}
+
+@media all and (max-width: 992px)
+{
+    .extra-img
+    {
+        height: 300px;
+    }
+}
+
+@media all and (max-width: 768px)
+{
+    .extra-img
+    {
+        height: 250px;
+    }
+}

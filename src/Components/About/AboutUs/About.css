@@ -1,0 +1,12 @@
+.about-img
+{
+    height: 300px;
+}
+
+@media (max-width: 768px)
+{
+    .about-img
+    {
+        height: 200px;
+    }
+}
