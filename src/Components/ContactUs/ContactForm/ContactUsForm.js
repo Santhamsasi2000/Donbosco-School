@@ -10,7 +10,7 @@ const ContactUsForm = () => {
   const onSubmit = async (values, { resetForm, setSubmitting }) => {
     const formData = new FormData();
     Object.keys(values).forEach((key) => formData.append(key, values[key]));
-    formData.append("access_key", "9afd317d-caf1-43f7-82ed-c9719737eff7");
+    formData.append("access_key", "2f288866-1d0a-4c43-ab4c-e4d63f60f7e6");
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
@@ -23,7 +23,7 @@ const ContactUsForm = () => {
         const { default: Swal } = await import("sweetalert2");
         Swal.fire({
           title: "MESSAGE SENT !",
-          text: "Thanks for contacting us. You will receive a response within two hours. If you do not receive a response from us, please call '6382174912'.",
+          text: "Thanks for contacting us. You will receive a response within two hours. If you do not receive a response from us, please call '8098779596'.",
           icon: "success",
         });
         resetForm();
@@ -42,17 +42,14 @@ const ContactUsForm = () => {
     }
   };
 
-  const standardOptions = [
-    "Pre Kg", "LKG", "UKG", "I STD", "II STD", "III STD", "IV STD", "V STD",
-    "VI STD", "VII STD", "VIII STD", "IX STD", "X STD", "XI STD", "XII STD",
-  ];
+  const mediumOptions = ["Tamil Medium","English Medium","Other"];
 
   return (
-    <section className="d-flex">
+    <section className="d-flex mt-5">
       <Formik
         initialValues={{
-          studentName: "",
-          studentStandard: "",
+          name: "",
+          whichMedium: "",
           email: "",
           mobileNumber: "",
           subject: "",
@@ -68,8 +65,8 @@ const ContactUsForm = () => {
             Feel free to use the below form to share your experience, questions, concerns, or Admission Enquiry.
             </p>
 
-            <FormField name="studentName" label="Student's Name" placeholder="Enter Student's Name*" />
-            <StandardDropdown options={standardOptions} name="studentStandard" />
+            <FormField name="name" label="Your Name" placeholder="Enter Your Name*" />
+            <StandardDropdown options={mediumOptions} name="whichMedium"/>
             <FormField name="email" label="Email Address (Optional)" type="email" placeholder="Enter Your Email Id" />
             <FormField name="mobileNumber" label="Mobile Number" placeholder="Enter Your Mobile Number*" />
             <FormField name="subject" label="Subject" placeholder="Enter the Subject*" />
@@ -77,7 +74,7 @@ const ContactUsForm = () => {
 
             <button
               type="submit"
-              className="btn-common border-0 px-5 py-2 fw-bold rounded-2"
+              className="border border-success border-2 text-success px-5 py-2 fw-bold rounded-2"
               disabled={isSubmitting}
             >
               {isSubmitting ? "SENDING..." : "SEND"}

@@ -6,37 +6,38 @@ const Menus = () => {
     <section className='menus p-2 p-md-4  d-flex gap-md-5 gap-4 justify-content-center flex-wrap mw-100'>
       <NavLink to="/" className="navlink px-sm-4 py-sm-1">HOME</NavLink>
       <div className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle navlink px-sm-4 py-sm-1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">ADMISSIONS</a>
-          <ul className="dropdown-menu">
-            <li><NavLink to="/admissionprocess" className="dropdown-item">Admission Process</NavLink></li>
-            <li><NavLink to="/admissionform" className="dropdown-item">Admission Enquiry Form</NavLink></li>
-          </ul>
-      </div>
-      <div className="nav-item dropdown">
           <a className="nav-link dropdown-toggle navlink px-sm-4 py-sm-1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">ABOUT US</a>
           <ul className="dropdown-menu">
             <li><NavLink to="/about" className="dropdown-item">ABOUT US</NavLink></li>
-            <li><NavLink to="/staff" className="dropdown-item">STAFF</NavLink></li>
-            <li><NavLink to="/events" className="dropdown-item">EVENTS</NavLink></li>
+            <li><NavLink to="/management" className="dropdown-item">MANAGEMENT</NavLink></li>
           </ul>
       </div>
       <div className="nav-item dropdown">
           <a className="nav-link dropdown-toggle navlink px-sm-4 py-sm-1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            STUDENTS
+            COMMON
           </a>
           <ul className="dropdown-menu">
-            <li><NavLink to="/academics" className="dropdown-item">ACADEMICS</NavLink></li>
-            <li><NavLink to="/toppers" className="dropdown-item">TOPPERS</NavLink></li>
             <li> <NavLink to="/facilities" className="dropdown-item">FACILITIES</NavLink></li>
-            <li> <NavLink to="/house" className="dropdown-item">HOUSE</NavLink></li>
+            <li><NavLink to="/achievers" className="dropdown-item">ACHIEVERS</NavLink></li>
+            <li><NavLink to="/hostel" className="dropdown-item">HOSTEL</NavLink></li>
+            <li><NavLink to="/extracurricular" className="dropdown-item">Co-Curricular</NavLink></li>
+            <li><NavLink to="/groups" className="dropdown-item">GROUPS</NavLink></li>
+            <li><NavLink to="/bus-stops" className="dropdown-item">SCHOOL BUS</NavLink></li>
           </ul>
       </div>
       <div className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle navlink px-sm-4 py-sm-1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            FEES
-          </a>
+          <a className="nav-link dropdown-toggle navlink px-sm-4 py-sm-1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">TAMIL MEDIUM</a>
           <ul className="dropdown-menu">
-            <li><NavLink to="/fees" className="dropdown-item">2024-2025</NavLink></li>
+            <li><NavLink to="/house" className="dropdown-item">HOUSE</NavLink></li>
+            <li><NavLink to="/tamilteachers" className="dropdown-item">STAFF</NavLink></li>
+            <li><NavLink to="/tamil-celebrations" className="dropdown-item">EVENTS</NavLink></li>
+            <li><NavLink to="/tamil-clubs" className="dropdown-item">CLUBS</NavLink></li>
+          </ul>
+      </div>
+      <div className="nav-item dropdown">
+          <a className="nav-link dropdown-toggle navlink px-sm-4 py-sm-1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">ENGLISH MEDIUM</a>
+          <ul className="dropdown-menu">
+            <li><NavLink to="/english-staff" className="dropdown-item">STAFF</NavLink></li>
           </ul>
       </div>
       <NavLink to="/contact" className="navlink px-sm-4 py-sm-1">CONTACT US</NavLink>

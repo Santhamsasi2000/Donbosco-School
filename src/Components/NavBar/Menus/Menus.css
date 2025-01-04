@@ -6,11 +6,18 @@
     }
 }
 
+.menus
+{
+    /* background: #B9E9C5; */
+    background-color: #119da4;
+    /* background-color: #0c7489; */
+    /* background-color: #13505b; */
+}
+
 .navlink
 {
     font-weight: bold;
-    background-color: white !important;
-    color:  #0D1466 !important;
+    color:  white !important;
     text-decoration: none;
     border-radius: 3px;
     padding: 3px;

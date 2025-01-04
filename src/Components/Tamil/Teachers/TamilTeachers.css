@@ -1,0 +1,19 @@
+table,th,td
+{
+  border: 1px solid black;
+}
+
+.tamil-title
+{
+  color: #119da4;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tamil-subtitle
+{
+  /* color: #13505b; */
+  color: #0c7489;
+  font-size: 16px;
+  font-weight: bold;
+}

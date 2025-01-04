@@ -1,10 +1,10 @@
 import * as Yup from "yup";
 
 export const ValidationSchema = Yup.object({
-  studentName: Yup.string()
+  name: Yup.string()
     .min(3, "Name must be at least 3 characters long")
-    .required("Student's name is required"),
-  studentStandard: Yup.string().required("Please select a standard"),
+    .required("Your name is required"),
+    whichMedium: Yup.string().required("Please select a Medium"),
   email: Yup.string().email("Invalid email address"),
   mobileNumber: Yup.string()
     .matches(/^[0-9]{10}$/, "Please provide a valid 10-digit mobile number.")
