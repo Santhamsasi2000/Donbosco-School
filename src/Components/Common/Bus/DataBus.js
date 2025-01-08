@@ -1,5 +1,6 @@
 export const DataBus = [
         {
+          image:"/Images/Common/School Bus/1.jpg",
           busNo: 1,
           shift: 1,
           startingPoint: "Grambulik",
@@ -10,6 +11,7 @@ export const DataBus = [
           endingPoint: "School Campus"
         },
         {
+          image:"/Images/Common/School Bus/1.jpg",
           busNo: 1,
           shift: 2,
           startingPoint: "Pallithambal",
@@ -17,6 +19,7 @@ export const DataBus = [
           endingPoint: "School Campus"
         },
         {
+          image:"/Images/Common/School Bus/2.jpg",
           busNo: 2,
           shift: 1,
           startingPoint: "Alanvayal",
@@ -27,6 +30,7 @@ export const DataBus = [
           endingPoint: "School Campus"
         },
         {
+          image:"/Images/Common/School Bus/2.jpg",
           busNo: 2,
           shift: 2,
           startingPoint: "VIP Nagar",
@@ -37,6 +41,7 @@ export const DataBus = [
           endingPoint: "School Campus"
         },
         {
+          image:"/Images/Common/School Bus/3.jpg",
           busNo: 3,
           shift: 1,
           startingPoint: "Kollangudi",
@@ -47,6 +52,7 @@ export const DataBus = [
           endingPoint: "School Campus"
         },
         {
+          image:"/Images/Common/School Bus/3.jpg",
           busNo: 3,
           shift: 2,
           startingPoint: "Bastin Nagar",
@@ -57,6 +63,7 @@ export const DataBus = [
           endingPoint: "School Campus"
         },
         {
+          image:"/Images/Common/School Bus/4.jpg",
           busNo: 4,
           shift: 1,
           startingPoint: "Andhakudi",
@@ -67,6 +74,7 @@ export const DataBus = [
           endingPoint: "School Campus"
         },
         {
+          image:"/Images/Common/School Bus/5.jpg",
           busNo: 5,
           shift: 1,
           startingPoint: "Kalakkanmoy",
@@ -77,6 +85,7 @@ export const DataBus = [
           endingPoint: "School Campus"
         },
         {
+          image:"/Images/Common/School Bus/5.jpg",
           busNo: 5,
           shift: 2,
           startingPoint: "Kaalaiyarkovil Union Stop",
@@ -84,6 +93,7 @@ export const DataBus = [
           endingPoint: "School Campus"
         },
         {
+          image:"/Images/Common/School Bus/6.jpg",
           busNo: 6,
           shift: 1,
           startingPoint: "Kurumanendal",

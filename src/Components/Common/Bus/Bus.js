@@ -4,28 +4,62 @@ const Bus = () => {
   return (
   <section className='common-bg p-3 p-sm-5'>
     <p className='title'>Bus Schedule</p>
-    <table>
-      <thead>
-        <tr>
-          <th className='p-3'>Bus No.</th>
-          <th className='p-3'>Shift</th>
-          <th className='p-3'>Starting Point</th>
-          <th className='p-3'>Stops</th>
-          <th className='p-3'>Ending Point</th>
-        </tr>
-      </thead>
-      <tbody>
-        {DataBus.map((bus, index) => (
-          <tr key={index}>
-            <td className='p-3'>{bus.busNo}</td>
-            <td className='p-3'>{bus.shift}</td>
-            <td className='p-3'>{bus.startingPoint}</td>
-            <td className='p-3'>{bus.stops.join(", ")}</td>
-            <td className='p-3'>{bus.endingPoint}</td>
-          </tr>
+    {/* {DataBus.map(({image,busNo,shift,startingPoint,stops,endingPoint}) => (
+     <div className='row'>
+        <div className='col-6'>
+              <img src={image} alt='No-Image' className='w-100'/>
+        </div>
+        <div className='col-6'>
+          <div>
+            <span>Bus No:</span>
+            <span>{busNo}</span>
+          </div>
+          <table>
+              <tr>
+                <th>Shift</th>
+                <th>Starting Point</th>
+                <th>Stops</th>
+                <th>Ending Point</th>
+              </tr>
+              <tr>
+                <td>{shift}</td>
+                <td>{startingPoint}</td>
+                <td>{stops.join(", ")}</td>
+                <td>{endingPoint}</td>
+              </tr>
+          </table>
+        </div>
+     </div>
+        ))} */}
+         {DataBus.map(({image,busNo,shift,startingPoint,stops,endingPoint}) => (
+     <div className='row'>
+        <div className='col-6'>
+              <img src={image} alt='No-Image' className='w-100'/>
+        </div>
+        <div className='col-6'>
+          <div className='d-flex gap-3'>
+            <span>Bus No :</span>
+            <span>{busNo}</span>
+          </div>
+            <div className='d-flex gap-3'>
+            <span>Shift :</span>
+            <span>{shift}</span>
+            </div>
+            <div className='d-flex gap-3'>
+            <span>Starting Point :</span>
+            <span>{startingPoint}</span>
+            </div>
+            <div className='d-flex gap-3'>
+            <span>Stops :</span>
+            <span>{stops.join(", ")}</span>
+            </div>
+            <div className='d-flex gap-3'>
+            <span>Ending Point :</span>
+            <span>{endingPoint}</span>
+            </div>
+          </div>
+        </div>
         ))}
-      </tbody>
-    </table>
   </section>
   )
 }

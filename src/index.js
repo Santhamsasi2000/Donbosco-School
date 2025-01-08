@@ -20,17 +20,17 @@ import TamilTeachers from "./Components/Tamil/Teachers/TamilTeachers";
 import Home from "./Components/Home/Home";
 import BeyondClass from "./Components/Home/BeyondClass/BeyondClass";
 import Welcome from "./Components/Home/Welcome/Welcome";
-import TamilHome from "./Components/Home/Tamil/TamilHome";
 import AboutEnglish from "./Components/English/About/AboutEnglish";
 import Rules from "./Components/English/Rules/Rules";
 import EnglishTeacher from "./Components/English/Staff/EnglishTeacher";
+import Bus from "./Components/Common/Bus/Bus";
+import Carousel from "./Components/Home/Carousel/Carousel";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <React.StrictMode>
-      {/* <App /> */}
-      <Header/>
+       <App/>
     </React.StrictMode>
   </BrowserRouter>
 );

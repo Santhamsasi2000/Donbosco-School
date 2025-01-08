@@ -4,3 +4,22 @@
     width: 100px;
 }
 
+.header-title
+{
+    margin-bottom: 0;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.header-subtitle1
+{
+    font-weight: 600;
+    color: #1c2a57;
+}
+
+.header-subtitle2
+{
+    font-weight: 600;
+    color: #068EE0;
+}
+
