@@ -5,22 +5,16 @@ const Management = () => {
     <section className="common-bg p-3 p-sm-5">
       <p className="title">The Management Team </p>
       {/*The Management Team and The Staff */}
-      <div className="d-flex flex-column align-items-center">
+      <div className="row gap-5 justify-content-center">
         {/* <p className="fw-semibold text-primary">Management Team</p> */}
-        <table>
-          <tr>
-            <th className="p-2">S.No</th>
-            <th className="p-2">Name</th>
-            <th className="p-2">Position</th>
-          </tr>
-          {ManagementList.map(({ id, name, position }) => (
-            <tr>
-              <td className="p-2">{id}</td>
-              <td className="p-2">{name}</td>
-              <td className="p-2">{position}</td>
-            </tr>
+        
+          {ManagementList.map(({ id, image,name, position }) => (
+            <div className="col-md-5 col-lg-3 border border-success border-2 rounded-2" key={id}>
+              <img src={image} alt="No-Image" className="mt-3 w-100 management-img"/>
+              <p className="mt-3 fw-semibold">{name}</p>
+              <p className="fw-semibold">{position}</p>
+            </div>
           ))}
-        </table>
       </div>
     </section>
   );

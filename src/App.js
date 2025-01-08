@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router";
 import Header from "./Components/NavBar/Header/Header";
 import Menus from "./Components/NavBar/Menus/Menus";
 import ContactUs from "./Components/ContactUs/ContactUs";
-import ExtraCurricular from "./Components/Common/ExtraCuri/ExtraCurricular";
+import ExtraCurricular from "./Components/English/ExtraCuri/ExtraCurricular";
 import About from "./Components/About/AboutUs/About";
 import Home from "./Components/Home/Home";
 import Groups from "./Components/Common/Groups/Groups";
@@ -26,13 +26,13 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/management" element={<Management/>} />
+        <Route path="/management" element={<Management />} />
         {/* Common */}
         <Route path="/facilities" element={<Facilities />} />
         <Route path="/achievers" element={<SchoolToppers />} />
         <Route path="/hostel" element={<Hostel />} />
         <Route path="/groups" element={<Groups />} />
-        <Route path="/bus-stops" element={<Bus/>} />
+        <Route path="/bus-stops" element={<Bus />} />
         {/* Tamil Medium */}
         <Route path="/house" element={<HouseSystem />} />
         <Route path="/extracurricular" element={<ExtraCurricular />} />

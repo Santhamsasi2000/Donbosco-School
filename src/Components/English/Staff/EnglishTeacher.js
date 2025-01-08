@@ -4,7 +4,7 @@ import "./EnglishStaff.css";
 const EnglishTeacher = () => {
   return (
     <section className="common-bg p-3 p-sm-5">
-       <p className="title">our Staff</p>
+       <p className="title">Our Dedicated Team: Teachers and Staff</p>
        <div>
            <p className="english-title">Higher Secondary Teachers</p>
             <table>

@@ -1,18 +1,17 @@
 .celebrations-title
 {
-  color: #119da4;
+  color: green;
   text-align: center;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
 }
 
 .celebrations-subtitle
 {
   /* color: #13505b; */
-  color: #0c7489;
+  color: black;
   text-align: center;
   font-size: 16px;
-  font-weight: bold;
 }
 
 @media  (min-width: 992px)  

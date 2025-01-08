@@ -4,7 +4,7 @@ import { DataCelebrations } from "./DataCelebrations";
 const Celebrations = () => {
   return (
     <section className="common-bg p-3 p-sm-5">
-        <p className="title">Our Celebrations of 2024</p>
+        <p className="title mb-3 mb-sm-4">Capturing Smiles: School Events of 2024</p>
         <div className="row">
           {
             DataCelebrations.map(({id,title,date,image})=>(

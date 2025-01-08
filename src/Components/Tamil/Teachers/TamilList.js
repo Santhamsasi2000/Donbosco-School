@@ -11,12 +11,12 @@ export const TamilTeachersList = [
     },
     {
         id:3,
-        name:"Mrs. D. Arputha Sagayarani",
+        name:"Mrs. D. Arputha Sahayarani",
         subject:"Zoology"
     },
     {
         id:4,
-        name:"Mr. P. Sellathurai",
+        name:"Mr. B. Sellathurai",
         subject:"English"
     },
     {
@@ -26,7 +26,7 @@ export const TamilTeachersList = [
     },
     {
         id:6,
-        name:"Mrs. A. Fatima Mary",
+        name:"Mrs. A. Fathima Mary",
         subject:"History"
     },
     {
@@ -36,17 +36,17 @@ export const TamilTeachersList = [
     },
     {
         id:8,
-        name:"Mrs. J. Sagaya Jacqueline Mary",
+        name:"Mrs. S. Sahaya Jakulin Mary",
         subject:"Commerce"
     },
     {
         id:9,
-        name:"Mr. C. Prabhakaran",
+        name:"Mr. J. Prabhakaran",
         subject:"Mathematics"
     },
     {
         id:10,
-        name:"Mrs. G. Roslin Prabha",
+        name:"Mrs. K. Rosline Prabha",
         subject:"Tamil"
     },
     {
@@ -56,12 +56,12 @@ export const TamilTeachersList = [
     },
     {
         id:12,
-        name:"Mrs. R. Jansi Rani",
+        name:"Mrs. J. Jancy Rani",
         subject:"English"
     },
     {
         id:13,
-        name:"Mrs. C. Sagaya Loretta",
+        name:"Mrs. S. Sahaya Loretta",
         subject:"Physics"
     },
     {
@@ -76,7 +76,7 @@ export const TamilTeachersList = [
     },
     {
         id:16,
-        name:"Mr. K. Parthasarathi",
+        name:"Mr. G. Parthasarathi",
         subject:"Physical Education"
     },
 ];
@@ -84,22 +84,22 @@ export const TamilTeachersList = [
 export const Tamiloffice = [
     {
         id:1,
-        name:"Mr. C. Xavier",
+        name:"Mr. S. Xavier",
         subject:"Junior Assistant"
     },
     {
         id:2,
-        name:"Mr. D. Susairaj",
+        name:"Mr. D. Susai Raj",
         subject:"Laboratory Assistant"
     },
     {
         id:3,
-        name:"Mrs. M. Mary Viyakulam",
+        name:"Mrs. M. Maria Viagulam",
         subject:"Librarian"
     },
     {
         id:4,
-        name:"Mrs. A. Kannammal",
+        name:"Mrs. A. Kannamma",
         subject:"Cleaner"
     },
 ];
@@ -107,17 +107,17 @@ export const Tamiloffice = [
 export const TamilPartTeachers = [
     {
         id:1,
-        name:"Mr. C. Amalraj",
+        name:"Mr. S. Amal Raj",
         subject:"English"
     },
     {
         id:2,
-        name:"Mr. A. Mary John Kennedy",
+        name:"Mr. A. Maria John Kennedy",
         subject:"Commerce"
     },
     {
         id:3,
-        name:"Mrs. C. Mikkelammal",
+        name:"Mrs. S. Michalemmal",
         subject:"Tamil"
     },
 ];

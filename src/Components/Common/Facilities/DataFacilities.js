@@ -47,7 +47,7 @@ export const CommonFacilities = [
     {
         id:10,
         title: "Physics lab",
-        image: "/images/Facilities/Physics Lab.jpg"
+        image: "/images/Facilities/Physics.jpg"
     },
     {
         id:11,
