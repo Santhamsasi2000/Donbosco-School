@@ -6,7 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import HouseSystem from "./Components/Tamil/House/HouseSystem";
 import ContactUs from "./Components/ContactUs/ContactUs";
-import About from "./Components/About/AboutUs/About";
+import About from "./Components/Tamil/About/About";
 import Facilities from "./Components/Common/Facilities/Facilities";
 import Celebrations from "./Components/Tamil/Celebrations/Celebrations";
 import Location from "./Components/ContactUs/Location/Location";
@@ -15,15 +15,22 @@ import SchoolToppers from "./Components/Common/Toppers/SchoolToppers";
 import ExtraCurricular from "./Components/English/ExtraCuri/ExtraCurricular";
 import Groups from "./Components/Common/Groups/Groups";
 import Header from "./Components/NavBar/Header/Header";
-import Management from "./Components/About/Staff/Management";
+import Management from "./Components/Common/Managment/Management";
 import TamilTeachers from "./Components/Tamil/Teachers/TamilTeachers";
+import Home from "./Components/Home/Home";
+import BeyondClass from "./Components/Home/BeyondClass/BeyondClass";
+import Welcome from "./Components/Home/Welcome/Welcome";
+import TamilHome from "./Components/Home/Tamil/TamilHome";
+import AboutEnglish from "./Components/English/About/AboutEnglish";
+import Rules from "./Components/English/Rules/Rules";
+import EnglishTeacher from "./Components/English/Staff/EnglishTeacher";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <React.StrictMode>
-      <App />
-      {/* <Facilities /> */}
+      {/* <App /> */}
+      <Header/>
     </React.StrictMode>
   </BrowserRouter>
 );

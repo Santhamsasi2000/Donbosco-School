@@ -1,8 +1,12 @@
+import BeyondClass from "./BeyondClass/BeyondClass"
+import Welcome from "./Welcome/Welcome"
+
 const Home = () => {
   return (
-    <div>
-      
-    </div>
+    <section className="common-bg">
+      <Welcome/>
+      <BeyondClass/>
+    </section>
   )
 }
 

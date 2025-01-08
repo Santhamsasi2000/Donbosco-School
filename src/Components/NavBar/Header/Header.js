@@ -2,8 +2,8 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <section className='py-3 row w-100'>
-      <div className='col-md-6 d-flex align-items-center justify-content-center gap-2'>
+    <section className='p-3 row w-100'>
+      <div className='col-md-6 d-flex align-items-center gap-3'>
         <img className="header" src='/Images/Header/Tamil.jpg' alt='No-Image'/>
         <div className='mt-2'>
           <p className='mb-0 fw-bold fs-3'>DON BOSCO</p>
@@ -11,7 +11,7 @@ const Header = () => {
           <p className=''>TAMIL MEDIUM</p>
         </div>
       </div>
-      <div className='col-md-6 d-flex align-items-center justify-content-center gap-2'>
+      <div className='col-md-6 d-flex align-items-center gap-3'>
         <img className="header" src='/Images/Header/English.jpg' alt='No-Image'/>
         <div className='mt-2'>
           <p className='mb-0 fw-bold fs-3'>DON BOSCO</p>
