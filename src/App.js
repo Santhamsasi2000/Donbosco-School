@@ -18,6 +18,7 @@ import Management from "./Components/Common/Managment/Management";
 import Bus from "./Components/Common/Bus/Bus";
 import AboutEnglish from "./Components/English/About/AboutEnglish";
 import About from "./Components/Tamil/About/About";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
 
         <Route path="/contact" element={<ContactUs />} />
       </Routes>
+      <Footer/>
     </>
   );
 }

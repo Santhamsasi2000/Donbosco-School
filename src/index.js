@@ -25,12 +25,14 @@ import Rules from "./Components/English/Rules/Rules";
 import EnglishTeacher from "./Components/English/Staff/EnglishTeacher";
 import Bus from "./Components/Common/Bus/Bus";
 import Carousel from "./Components/Home/Carousel/Carousel";
+import Footer from "./Components/Footer/Footer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <React.StrictMode>
        <App/>
+       {/* <Footer/> */}
     </React.StrictMode>
   </BrowserRouter>
 );
