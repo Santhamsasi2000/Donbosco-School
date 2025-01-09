@@ -1,11 +1,26 @@
-.header
+.header-logo1
 {
     height: 100px;
     width: 100px;
 }
 
-.header-title
+.header-logo2
 {
+    height: 100px;
+    width: 100px;
+}
+
+.header-title1
+{
+    color: #1c2a57;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.header-title2
+{
+    color: #068EE0;
     margin-bottom: 0;
     font-size: 25px;
     font-weight: 900;
@@ -21,5 +36,40 @@
 {
     font-weight: 600;
     color: #068EE0;
+}
+
+@media (max-width: 1100px) 
+{
+    .english-btn,.tamil-btn
+    {
+        display: none !important;
+    }
+}
+
+@media (max-width: 400px) 
+{
+  .header-title1 ,.header-title2
+  {
+    font-weight: 400;
+    font-size: 15px;
+  }
+  .header-subtitle1 ,.header-subtitle2
+  {
+    font-size: 4px !important;
+  }
+}
+
+@media (max-width: 800px) 
+{
+    /* .header-container
+    {
+      display: grid !important;
+      grid-column: auto !important;
+    } */
+
+    /* .english-btn,.tamil-btn
+    {
+        display: block !important;
+    } */
 }
 

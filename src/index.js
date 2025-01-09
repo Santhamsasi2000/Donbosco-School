@@ -26,13 +26,15 @@ import EnglishTeacher from "./Components/English/Staff/EnglishTeacher";
 import Bus from "./Components/Common/Bus/Bus";
 import Carousel from "./Components/Home/Carousel/Carousel";
 import Footer from "./Components/Footer/Footer";
+import ProcessDetails from "./Components/Admission/ProcessDetails";
+import AdmissionProcess from "./Components/Admission/AdmissionProcess";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <React.StrictMode>
-       <App/>
-       {/* <Footer/> */}
+       {/* <App/> */}
+       <AdmissionProcess/>
     </React.StrictMode>
   </BrowserRouter>
 );

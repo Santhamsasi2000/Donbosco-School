@@ -10,7 +10,7 @@ const TamilTeachers = () => {
           <img src="/Images/Tamil/Teachers/2.jpg" alt="No-Image" className="w-100 teacher-img border border-2 border-success"/>
         </div>
         <div className="d-none d-lg-block col-lg-6">
-          <img src="/Images/Tamil/Teachers/3.jpg" alt="No-Image" className="w-100 teacher-img border border-2 border-success"/>
+          <img src="/Images/Tamil/Teachers/5.jpg" alt="No-Image" className="w-100 teacher-img border border-2 border-success"/>
         </div>
       </div>
       <div className="row justify-content-between gy-3 gy-sm-5">

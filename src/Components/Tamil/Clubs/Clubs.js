@@ -4,7 +4,7 @@ import { DataClub } from './DataClub';
 const Clubs = () => {
   return (
     <section className="common-bg p-3 p-sm-5">
-      <p className="title mb-3 mb-sm-5">Clubs and Responsibilities</p>
+      <p className="title mb-3 mb-sm-5">Student Clubs: Building Skills and Character</p>
       <div>
       {DataClub.map(({id,image,name,responsibilities,inCharge}) => (
       <div className='row mb-3 mb-sm-5 justify-content-center gap-5' key={id}>

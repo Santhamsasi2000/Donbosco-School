@@ -6,7 +6,7 @@ export const HouseSystemData = [
         houseColor:"Blue",
         responsibilities:["Bosco Garden (Flower Pots)","School Right side Ground (Near Cycle Shed)", "E-Magazine - October (1st Issue)"],
         teamAnimators:"Mrs. L. Pramila",
-        Staff:["Mrs. S. Sahaya Jakulin Mary","Mr. D. Susai Raj"]
+        Staff:["Mrs. Seeli Princy","Mrs. S. Sahaya Jakulin Mary","Mr. D. Susai Raj"]
     },
     {
         id:2,
@@ -15,7 +15,7 @@ export const HouseSystemData = [
         houseColor:"Green",
         responsibilities:["Savio Garden", "School Left side Ground (Near Volley ball Ground)", "E-Magazine - October (1st Issue)"],
         teamAnimators:"Mrs. K. Roseline Prabha",
-        Staff:["Mrs. Sahaya Rani","Mrs. J. Jancy Rani"]
+        Staff:["Mr. M.C. Ramesh Kumar","Mrs. Sahaya Rani","Mrs. J. Jancy Rani"]
     },
     {
         id:3,
@@ -24,7 +24,7 @@ export const HouseSystemData = [
         houseColor:"Yellow",
         responsibilities:["St. Joseph's Garden.","From Men's Toilet to Old Shed","E-Magazine - February (2nd Issue)"],
         teamAnimators:"Mrs. M. Sheela",
-        Staff:["Mrs. A. Fathima Mary", "Mrs. S. Sahaya Loretta"]
+        Staff:["Mr. J. Prabhakaran","Mrs. A. Fathima Mary", "Mrs. S. Sahaya Loretta"]
     },
     {
         id:4,
@@ -33,6 +33,6 @@ export const HouseSystemData = [
         houseColor:"Red",
         responsibilities:["Marian Garden. (Trees Garden)","Behind the 10th Standard Classroom to School Entrance","E-magazine - February (2nd Issue)"],
         teamAnimators:"Mrs. M. Josephine Rajakumari",
-        Staff:["Mrs. A. James Rani","Mrs. S. Ancy"]
+        Staff:["Mr. B. Sellathurai","Mrs. A. James Rani","Mrs. S. Ancy"]
     },
 ];

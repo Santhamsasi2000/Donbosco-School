@@ -19,15 +19,20 @@ import Bus from "./Components/Common/Bus/Bus";
 import AboutEnglish from "./Components/English/About/AboutEnglish";
 import About from "./Components/Tamil/About/About";
 import Footer from "./Components/Footer/Footer";
+import ScrollToTop from "./Components/ScrollToTop";
+import AdmissionProcess from "./Components/Admission/AdmissionProcess";
 
 function App() {
   return (
     <>
+      <ScrollToTop/>
       <Header />
       <Menus />
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* Common */}
+        {/* Admission */}
+        <Route path="/admission-process" element={<AdmissionProcess/>} />
+        {/* About - Common */}
         <Route path="/management" element={<Management/>} />
         <Route path="/facilities" element={<Facilities />} />
         <Route path="/achievers" element={<SchoolToppers />} />
