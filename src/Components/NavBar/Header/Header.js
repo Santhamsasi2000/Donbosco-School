@@ -9,7 +9,7 @@ const Header = () => {
         <img className="header-logo1" src='/Images/Header/Tamil.jpg' alt='No-Image'/>
         <div className='mt-2'>
           <p className='header-title1'>DON BOSCO</p>
-          <p className='header-subtitle mb-2'>Higher Secondary School</p>
+          <p className='header-subtitle mb-1 mb-sm-2'>Higher Secondary School</p>
           <p className='text-success medium'>TAMIL MEDIUM</p>
         </div>
         <div className="d-flex flex-column gap-3">

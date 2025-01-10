@@ -20,10 +20,11 @@ const Menus = () => {
             ABOUT US
           </a>
           <ul className="dropdown-menu">
-            <li><NavLink to="/management" className="dropdown-item">MANAGEMENT</NavLink></li>
             <li> <NavLink to="/facilities" className="dropdown-item">FACILITIES</NavLink></li>
+            <li> <NavLink to="/sports" className="dropdown-item">SPORTS</NavLink></li>
+            <li><NavLink to="/management" className="dropdown-item">MANAGEMENT</NavLink></li>
             <li><NavLink to="/achievers" className="dropdown-item">ACHIEVERS</NavLink></li>
-            {/* <li><NavLink to="/hostel" className="dropdown-item">HOSTEL</NavLink></li> */}
+            <li><NavLink to="/hostel" className="dropdown-item">HOSTEL</NavLink></li>
             <li><NavLink to="/groups" className="dropdown-item">GROUPS</NavLink></li>
             <li><NavLink to="/bus-stops" className="dropdown-item">SCHOOL BUS</NavLink></li>
           </ul>

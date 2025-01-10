@@ -26,7 +26,7 @@ export const DataBeyond = [
      },
      {
       id:5,
-      image:"/Images/Home/Beyond/Club.jpeg",
+      image:"/Images/Home/Beyond/Club.jpg",
       title:"Club Activities",
       link:"/tamil-clubs"
     },

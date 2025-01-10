@@ -21,6 +21,7 @@ import About from "./Components/Tamil/About/About";
 import Footer from "./Components/Footer/Footer";
 import ScrollToTop from "./Components/ScrollToTop";
 import AdmissionProcess from "./Components/Admission/AdmissionProcess";
+import Sports from "./Components/Common/Sports/Sports";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
         <Route path="/hostel" element={<Hostel />} />
         <Route path="/groups" element={<Groups />} />
         <Route path="/bus-stops" element={<Bus />} />
+        <Route path="/sports" element={<Sports/>}/>
         {/* Tamil Medium */}
         <Route path="/tamil-about" element={<About/>} />
         <Route path="/house" element={<HouseSystem />} />

@@ -1,0 +1,12 @@
+@media (min-width:992px) 
+{
+    .sports-img
+    {
+        height: 300px;
+    }
+}
+
+.table-heading
+{
+    color: #119da4;
+}

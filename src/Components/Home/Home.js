@@ -1,5 +1,6 @@
 import BeyondClass from "./BeyondClass/BeyondClass"
 import Carousel from "./Carousel/Carousel"
+import Message from "./Message/Message"
 import Welcome from "./Welcome/Welcome"
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <section className="common-bg">
       <Carousel/>
       <Welcome/>
+      <Message/>
       <BeyondClass/>
     </section>
   )

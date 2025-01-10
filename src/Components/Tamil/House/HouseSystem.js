@@ -9,7 +9,7 @@ const HouseSystem = () => {
               HouseSystemData.map(({id,image,houseName,houseColor,teamAnimators,Staff,responsibilities})=>(
                  <div className="row mb-3 mb-sm-5 justify-content-between gy-3 gy-sm-5" key={id}>
                    <div className="col-lg-6">
-                       <img src={image} alt="No-Image" className="w-100 house-img"/>
+                       <img src={image} alt="No-Image" className="w-100 house-img border border-2 border-success"/>
                    </div>
                    <div className="col-lg-6">
                       <p className=""><span className="fw-bold ">House Name :</span> {houseName}</p>

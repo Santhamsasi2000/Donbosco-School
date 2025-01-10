@@ -28,6 +28,10 @@ import Carousel from "./Components/Home/Carousel/Carousel";
 import Footer from "./Components/Footer/Footer";
 import ProcessDetails from "./Components/Admission/ProcessDetails";
 import AdmissionProcess from "./Components/Admission/AdmissionProcess";
+import Message from "./Components/Home/Message/Message";
+import RulesHostel from "./Components/Common/Hostel/RulesHostel";
+import Hostel from "./Components/Common/Hostel/Hostel";
+import Sports from "./Components/Common/Sports/Sports";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

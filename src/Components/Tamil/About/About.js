@@ -30,6 +30,8 @@ const About = () => {
             <li>Lamp: Illuminating the world.</li>
            </ul>
         </div>
+        <p>The school also conducts various activities like Scouting, National Service Scheme, Alaigal Media Forum, National Green Corps, Youth Movement, Social Awareness Movement, etc. to instill social and environmental awareness, team experience, and patriotism in students. The school administration provides students with integrated education with team games, individual games, basketball, and football to ensure their physical fitness.
+        </p>
     </section>
   )
 }

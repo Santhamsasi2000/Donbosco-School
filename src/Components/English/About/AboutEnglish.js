@@ -5,8 +5,8 @@ const AboutEnglish = () => {
     <section className="p-3 p-sm-5 common-bg">
         <p className="title">Vision and Mission of Don Bosco School of Merit</p>
         <div className="row">
-           <img src="/Images/English/About/English.jpg" alt="No-Image" className="col-lg-6"/>
-           <img src="/Images/English/About/English2.jpg" alt="No-Image" className="d-none d-lg-block col-lg-6"/>
+           <img src="/Images/English/About/English.jpg" alt="No-Image" className="col-lg-6 rounded-3"/>
+           <img src="/Images/English/About/English2.jpg" alt="No-Image" className="d-none d-lg-block col-lg-6 rounded-3"/>
         </div>
         <p className="text-center mt-4 fs-5">Motto - <span className="fw-semibold">"To Bloom, To Flourish, To Accomplish"</span></p>
         <div>

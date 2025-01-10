@@ -7,7 +7,7 @@ export const ManagementList = [
     },
     {
         id:2,
-        image:"/Images/Common/Management/Father1.jpg",
+        image:"/Images/Common/Management/Father2.jpg",
         name:"Rev. Fr. Mohan Christuraj, SDB",
         position:"Headmaster (DBHSS)"
     },

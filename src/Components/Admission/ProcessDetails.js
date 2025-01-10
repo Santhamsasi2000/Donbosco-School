@@ -4,8 +4,9 @@ import { IoMdCall } from "react-icons/io";
 
 const ProcessDetails = () => {
   const forms = [
-    { href: '/images/Admission/LKG to 10th Application Form.pdf', label: 'Tamil Medium', fileName: 'LKG-10th Admission Form' },
-    { href: '/images/Admission/Higher Secondary.pdf', label: 'English Medium', fileName: '11th and 12th Admission Form' },
+    { href: '/Images/Admission/Tamil Admission Form.pdf', label: 'Tamil Medium (6-12th)', fileName: 'Tamil Medium Admission Form' },
+    { href: '/Images/Admission/English Admission Form.pdf', label: 'English Medium (6-12th)', fileName: 'English Medium Admission Form (6-12th)' },
+    { href: '/Images/Admission/Primary Admission Form.pdf', label: 'English Medium (LKG - V)', fileName: 'English Medium Admission Form (6-12th)' },
   ];
   const phoneNumber = '6382174912';
 
@@ -23,7 +24,7 @@ const ProcessDetails = () => {
         {forms.map((form, index) => (
           <a
             key={index}
-            className="btn btn-outline-success"
+            className="btn btn-success"
             href={form.href}
             download={form.fileName}
           >
@@ -36,10 +37,10 @@ const ProcessDetails = () => {
         <li>Print 2 or 3 copies in case corrections are needed.</li>
         <li>Complete all required fields in the form.</li>
         <li>Bring the completed form along with the required documents listed below.</li>
-        <li>Visit our school campus to learn more about Shanthi Rani School.</li>
+        <li>Visit our school campus to learn more about DON BOSCO School.</li>
         <li>Contact our admission team for assistance and submit the form with documents.</li>
         <li>Take the entrance exam.</li>
-        <li>Secure your spot at Shanthi Rani School!</li>
+        <li>Secure your spot at DON BOSCO School!</li>
       </ol>
       <hr />
 
@@ -48,7 +49,7 @@ const ProcessDetails = () => {
       <div>
         <NavLink
           to="/admissionform"
-          className="btn-common border-0 p-2 text-decoration-none rounded-2 fw-semibold text-center"
+         className="btn btn-success"
         >
           CLICK IT
         </NavLink>
@@ -56,10 +57,10 @@ const ProcessDetails = () => {
           <li>Fill out the online admission form and submit it.</li>
           <li>We will contact you within 2 business days.</li>
           <li>Prepare the required documents listed below.</li>
-          <li>Visit our school campus to learn more about Shanthi Rani School.</li>
+          <li>Visit our school campus to learn more about DON BOSCO School.</li>
           <li>Contact our admission team and submit the form with documents.</li>
           <li>Take the entrance exam.</li>
-          <li>Secure your spot at Shanthi Rani School!</li>
+          <li>Secure your spot at DON BOSCO School!</li>
         </ol>
       </div>
       <hr />
@@ -68,7 +69,7 @@ const ProcessDetails = () => {
       <p className="fw-bold mt-4 mt-sm-5">Way 3: GUIDED ADMISSION</p>
       <a
         href={`tel:${phoneNumber}`}
-        className="btn-common border-0 p-2 text-decoration-none rounded-2 fw-semibold text-center"
+        className="btn btn-success"
         aria-label="Call 6382174912 for admission guidance"
       >
         <IoMdCall className="fs-5 me-1" />
