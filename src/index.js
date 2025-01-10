@@ -33,8 +33,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <React.StrictMode>
-       {/* <App/> */}
-       <AdmissionProcess/>
+       <App/>
     </React.StrictMode>
   </BrowserRouter>
 );

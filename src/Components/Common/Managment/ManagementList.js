@@ -23,27 +23,25 @@ export const ManagementList = [
         name:"Rev. Fr. Antony Joseph, SDB",
         position:"Principal (English Medium), Warden"
     },
+];
+export const OthersList = [
     {
-        id:5,
-        image:"/Images/Common/Management/No-Image.jpg",
+        id:1,
         name:"Rev. Fr. Vincent Sebastian, SDB",
         position:"Spiritual Director"
     },
     {
-        id:6,
-        image:"/Images/Common/Management/No-Image.jpg",
+        id:2,
         name:"Rev. Fr. Fr. Vinoth Xavier, SDB",
         position:"Assistant Parish Priest"
     },
     {
-        id:7,
-        image:"/Images/Common/Management/No-Image.jpg",
+        id:3,
         name:"Rev. Bro. Nirmal Packyaraj, SDB",
         position:"Assistant Warden"
     },
     {
-        id:8,
-        image:"/Images/Common/Management/No-Image.jpg",
+        id:4,
         name:"Rev. Bro. Vinith Abel, SDB",
         position:"Assistant Warden"
     },

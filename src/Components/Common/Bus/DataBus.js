@@ -2,12 +2,7 @@ export const DataBus = [
         {
           image:"/Images/Common/School Bus/1.jpg",
           busNo: 1,
-          shift: [1,2],
-          startingPoint: ["Grambulik","Pallithambal"],
-          stops:[ [
-            "Palayendal", "Velarendal", "Kandanikarai", "Solayur", "Maravamangalam", 
-            "Paluvaakudai", "Mandik Kanmoy", "Kaya Odai", "Valayampatti"
-          ],["Vembani", "Nedungulam"]],
+         
           endingPoint: "School Campus"
         },
         {
@@ -71,3 +66,18 @@ export const DataBus = [
           endingPoint: "School Campus"
         }
       ];
+
+export const busNo1 = [
+  {
+    shift: 1,
+    startingPoint: "Grambulik",
+    stops:[ 
+      "Palayendal", "Velarendal", "Kandanikarai", "Solayur", "Maravamangalam", 
+      "Paluvaakudai", "Mandik Kanmoy", "Kaya Odai", "Valayampatti"],
+  },
+  {
+    shift:2,
+    startingPoint: "Pallithambal",
+    stops:["Vembani", "Nedungulam"]
+  },
+];

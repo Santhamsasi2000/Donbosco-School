@@ -74,13 +74,13 @@ export const TamilFacilities = [
     },
     {
         id:2,
-        title: "Free Meals (After Noon) Given By Government",
+        title: "Free Meals (Government)",
         image: "/images/Facilities/Tamil/Free Meals.jpg"
     },
     {
         id:3,
-        title: "AV Hall (Meeting,Smart Classroom)",
-        image: "/images/Facilities/Tamil/Free Meals.jpg"
+        title: "Audio Visual Hall",
+        image: "/images/Facilities/Tamil/AV Hall1.jpg"
     },
 ];
 
@@ -98,22 +98,27 @@ export const EnglishFacilities = [
     {
         id:3,
         title: "Function Hall",
-        image: "/images/Facilities/English/Kinder.jpg"
+        image: "/images/Facilities/English/Function-Hall.jpg"
     },
     {
         id:4,
         title: "Smart Class (LKG - 5th STD)",
-        image: "/images/Facilities/English/Smart Class.Gif"
+        image: "/images/Facilities/English/Smart-board.jpg"
     },
     {
         id:5,
-        title: "Spoken Classes For Students and Teachers",
-        image: "/images/Facilities/English/Kinder.jpg"
+        title: "Student and teacher spoken class",
+        image: "/images/Facilities/English/Spoken Class.jpg"
     },
     {
         id:6,
-        title: "Handwriting Classes by Outside Teachers",
-        image: "/images/Facilities/English/Kinder.jpg"
+        title: "Handwriting Class",
+        image: "/images/Facilities/English/Handwriting.jpg"
+    },
+    {
+        id:7,
+        title: "CCTV Camera",
+        image: "/images/Facilities/English/CCTV.jpg"
     },
 ];
 

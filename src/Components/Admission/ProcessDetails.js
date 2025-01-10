@@ -4,14 +4,14 @@ import { IoMdCall } from "react-icons/io";
 
 const ProcessDetails = () => {
   const forms = [
-    { href: '/images/Admission/LKG to 10th Application Form.pdf', label: 'LKG To 10th STD', fileName: 'LKG-10th Admission Form' },
-    { href: '/images/Admission/Higher Secondary.pdf', label: '11th and 12th STD', fileName: '11th and 12th Admission Form' },
+    { href: '/images/Admission/LKG to 10th Application Form.pdf', label: 'Tamil Medium', fileName: 'LKG-10th Admission Form' },
+    { href: '/images/Admission/Higher Secondary.pdf', label: 'English Medium', fileName: '11th and 12th Admission Form' },
   ];
   const phoneNumber = '6382174912';
 
   return (
     <div className="">
-      <p className="title text-center fw-bold fs-3 text-decoration-underline">ADMISSION PROCESS</p>
+      <p className="title">ADMISSION PROCESS</p>
       <p className="fw-bold fs-5">Choose One Your Admission Path</p>
       <p className="mb-4">
         Here are three ways you can begin the admissions process in the best school.
@@ -23,7 +23,7 @@ const ProcessDetails = () => {
         {forms.map((form, index) => (
           <a
             key={index}
-            className="btn-common border-0 p-2 text-decoration-none rounded-2 fw-semibold text-center"
+            className="btn btn-outline-success"
             href={form.href}
             download={form.fileName}
           >

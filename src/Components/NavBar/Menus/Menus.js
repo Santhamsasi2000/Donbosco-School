@@ -8,7 +8,7 @@ const Menus = () => {
       {/* Admission */}
       <div className="nav-item dropdown">
           <a className="nav-link dropdown-toggle navlink px-sm-4 py-sm-1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            ABOUT US
+            ADMISSION
           </a>
           <ul className="dropdown-menu">
             <li><NavLink to="/admission-process" className="dropdown-item">Admission Process</NavLink></li>
