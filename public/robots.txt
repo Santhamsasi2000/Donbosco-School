@@ -1,3 +1,9 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+
+
+User-agent: *
+Disallow: /private-folder/  # Prevents crawling of specific folders
+Allow: /                    # Ensures the root and all other pages are crawled
+Sitemap: https://donboscoschool.org/sitemap.xml

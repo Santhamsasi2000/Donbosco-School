@@ -1,6 +1,6 @@
 .header-logo1
 {
-    height: 100px;
+    height: 110px;
     width: 100px;
 }
 
@@ -26,16 +26,9 @@
     font-weight: 900;
 }
 
-.header-subtitle1
+.header-subtitle
 {
     font-weight: 600;
-    color: #1c2a57;
-}
-
-.header-subtitle2
-{
-    font-weight: 600;
-    color: #068EE0;
 }
 
 @media (max-width: 1100px) 
@@ -46,30 +39,57 @@
     }
 }
 
-@media (max-width: 400px) 
+.tamil-btn
 {
-  .header-title1 ,.header-title2
-  {
-    font-weight: 400;
-    font-size: 15px;
-  }
-  .header-subtitle1 ,.header-subtitle2
-  {
-    font-size: 4px !important;
-  }
+    color: #1c2a57;
+    border: 2px solid #1c2a57;
 }
 
-@media (max-width: 800px) 
+.tamil-btn:hover,.tamil-btn:active
 {
-    /* .header-container
-    {
-      display: grid !important;
-      grid-column: auto !important;
-    } */
-
-    /* .english-btn,.tamil-btn
-    {
-        display: block !important;
-    } */
+    background-color: #1c2a57;
+    color: white;
 }
 
+.english-btn
+{
+    color: #068EE0;
+    border: 2px solid #068EE0;
+}
+
+.english-btn:hover,.english-btn:active
+{
+    background-color: #068EE0;
+    color: white;
+}
+
+@media (max-width: 500px) 
+{
+    .header-title1 ,.header-title2
+    {
+        font-weight: 800;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 360px) 
+{
+    .header-title1 ,.header-title2
+    {
+        font-size: 16px;
+    }
+    .header-subtitle
+    {
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .medium
+    {
+        font-size: 12px;
+    }
+    .header-logo1 , .header-logo2
+    {
+        height: 80px;
+        width: 80px;
+    }
+}
