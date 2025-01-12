@@ -3,7 +3,7 @@ import "./House.css";
 
 const HouseSystem = () => {
   return (
-    <section className="p-3 p-sm-5">
+    <section className="p-3 p-sm-5 common-bg">
        <p className="title mb-3 mb-sm-4">House Spirit: Colors, Teams, and Excellence</p>
             {
               HouseSystemData.map(({id,image,houseName,houseColor,teamAnimators,Staff,responsibilities})=>(

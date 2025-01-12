@@ -38,7 +38,6 @@ root.render(
   <BrowserRouter>
     <React.StrictMode>
        <App/>
-       {/* <Hostel/> */}
     </React.StrictMode>
   </BrowserRouter>
 );

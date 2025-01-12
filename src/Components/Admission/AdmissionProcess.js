@@ -4,7 +4,7 @@ import ReqDocuments from "./ReqDocuments"
 
 const AdmissionProcess = () => {
   return (
-    <section className="p-3 p-sm-5">
+    <section className="p-3 p-sm-5 common-bg">
       <ProcessDetails/>
       <Entrance/>
       <ReqDocuments/>

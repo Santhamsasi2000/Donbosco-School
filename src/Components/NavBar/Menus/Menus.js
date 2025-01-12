@@ -47,6 +47,7 @@ const Menus = () => {
             <li><NavLink to="/english-about" className="dropdown-item">ABOUT</NavLink></li>
             <li><NavLink to="/extracurricular" className="dropdown-item">CO-CURRICULAR</NavLink></li>
             <li><NavLink to="/english-staff" className="dropdown-item">TEACHERS</NavLink></li>
+            <li><NavLink to="/english-rules" className="dropdown-item">RULES</NavLink></li>
           </ul>
       </div>
       <NavLink to="/contact" className="navlink px-sm-4 py-sm-1">CONTACT</NavLink>

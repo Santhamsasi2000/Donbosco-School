@@ -22,6 +22,7 @@ import Footer from "./Components/Footer/Footer";
 import ScrollToTop from "./Components/ScrollToTop";
 import AdmissionProcess from "./Components/Admission/AdmissionProcess";
 import Sports from "./Components/Common/Sports/Sports";
+import Rules from "./Components/English/Rules/Rules";
 
 function App() {
   return (
@@ -51,7 +52,8 @@ function App() {
         <Route path="/english-about" element={<AboutEnglish />} />
         <Route path="/english-staff" element={<EnglishTeacher />} />
         <Route path="/extracurricular" element={<ExtraCurricular />} />
-
+        <Route path="/english-rules" element={<Rules/>}/>
+        {/* Contact */}
         <Route path="/contact" element={<ContactUs />} />
       </Routes>
       <Footer/>
