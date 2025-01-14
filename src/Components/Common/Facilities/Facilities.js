@@ -4,7 +4,7 @@ import './Facilities.css';
 const Facilities = () => {
   return (
     <section className='common-bg p-3 p-sm-5'>
-        <p className="title">Facilities That Enhance Education and Growth</p> 
+        <p className="title mb-3 mb-sm-5">Facilities That Enhance Education and Growth</p> 
         <div className='row'>
           {
             CommonFacilities.map(({id,title,image})=>(

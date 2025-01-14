@@ -2,67 +2,67 @@ export const CommonFacilities = [
     {
         id:1,
         title: "School Bus",
-        image: "/Images/Facilities/Bus3.jpg"
+        image: "/Images/Facilities/Common/Biology Lab.jpeg"
     },
     {
         id:2,
         title: "Garden",
-        image: "/Images/Facilities/Garden.jpg"
+        image: "/Images/Facilities/Common/Garden.jpg"
     },
     {
         id:3,
         title: "Separate Staff Room",
-        image: "/Images/Facilities/Staff.jpg"
+        image: "/Images/Facilities/Common/Staff.jpg"
     },
     {
         id:4,
         title: "Parking",
-        image: "/Images/Facilities/Parking.jpg"
+        image: "/Images/Facilities/Common/Parking.jpg"
     },
     {
         id:5,
         title: "Playground",
-        image: "/Images/Facilities/Playground.jpg"
+        image: "/Images/Facilities/Common/Playground.jpg"
     },
     {
         id:6,
         title: "Sports",
-        image: "/Images/Facilities/Sports.jpg"
+        image: "/Images/Facilities/Common/Sports.jpg"
     },
     {
         id:7,
         title: "Solar Power Supply",
-        image: "/Images/Facilities/Solar Power.jpg"
+        image: "/Images/Facilities/Common/Solar Power.jpg"
     },
     {
         id:8,
         title: "Classroom",
-        image: "/Images/Facilities/Classroom.jpg"
+        image: "/Images/Facilities/Common/Classroom.jpg"
     },
     {
         id:9,
         title: "Purified Water Supply",
-        image: "/Images/Facilities/Water.jpg"
+        image: "/Images/Facilities/Common/Water.jpeg"
     },
     {
         id:10,
         title: "Physics lab",
-        image: "/Images/Facilities/Physics.jpg"
+        image: "/Images/Facilities/Common/Physics.jpeg"
     },
     {
         id:11,
         title: "Chemistry lab",
-        image: "/Images/Facilities/Chemistry Lab.jpg"
+        image: "/Images/Facilities/Common/Chemistry Lab.jpeg"
     },
     {
         id:12,
         title: "Biology lab",
-        image: "/Images/Facilities/Biology Lab.jpg"
+        image: "/Images/Facilities/Common/Biology Lab.jpeg"
     },
     {
         id:13,
         title: "Computer lab",
-        image: "/Images/Facilities/computer-lab.jpg"
+        image: "/Images/Facilities/Common/computer-lab.jpeg"
     },
 ];
 
