@@ -42,6 +42,8 @@ const Footer = () => {
               <a  href={`tel:6384994252`} className="contact-links fw-semibold">6384994252</a>
          </div>
        </div>
+       <p className='text-start text-sm-center mt-5 text-white'>Developed By <a href='https://pogowebsolutions.com/' target="_blank" 
+          rel="noopener noreferrer" className='fw-bold'> POGO WEB SOLUTIONS</a></p>
     </section>
   ) 
 }
